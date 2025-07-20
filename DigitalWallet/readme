@@ -1,0 +1,20 @@
+# E-Wallet Application
+
+A modular **E-Wallet System** built with **Spring Boot Microservices Architecture**.
+
+## 📌 **Modules**
+
+- **Common:** Shared configurations, DTOs, and utilities used by all services.
+- **OnboardingService:** Handles user registration, and account creation.
+- **TransactionService:** Manages transactions such as wallet top-up, peer-to-peer transfers, and payments.
+- **WalletService:** Core wallet logic for balance management, account updates.
+- **NotificationService:** Sends transaction alerts and account notifications to users via email/SMS.
+
+## ⚙️ **Tech Stack**
+
+- **Backend:** Java, Spring Boot, Spring Cloud
+- **Build Tool:** Maven
+- **Database:** MySQL
+- **Security:** Spring Security
+- **Message Broker: Add Kafka
+- **Deployment: local
